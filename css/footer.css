@@ -1,0 +1,139 @@
+/*footer*/
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer .top {
+  background: #37475a;
+}
+
+footer .top a {
+  padding: 17px;
+
+  display: inline-block;
+  text-decoration: none;
+}
+
+footer .top a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+footer .top:hover {
+  background: #485769;
+  
+}
+
+footer .center {
+  margin: 0 auto;
+  max-width: 1080px;
+}
+
+footer ul {
+  margin: 30px 0px 30px 0;
+  display: inline-block;
+  vertical-align: top;
+  list-style: none;
+  
+}
+
+footer .middle {
+  background: #232f3e;
+}
+
+footer .middle h3 {
+  color: #fff;
+  font-weight: 700;
+  margin-bottom 10px;
+  padding: 0;
+  font-size: 20px;
+}
+
+footer .middle li {
+  position: relative;
+  
+}
+
+footer .middle .logo {
+  background: transparent url('../img/logo.png') no-repeat 0 0;
+  background-size: 76px;
+  width: 76px;
+  height: 23px;
+  display: block;
+  border: none !important;
+  margin-right: 60px;
+  position: absolute;
+  top: -14px;
+  left: -120px;
+}
+
+footer .middle a {
+  color: #ddd;
+  font-size: 16px;
+  display: block;
+  padding: 5px 0;
+}
+footer .middle a:hover {
+  text-decoration: underline;
+}
+
+footer ul.copy {
+  display: inline-block;
+  width: 100%;
+  height:60px;
+}
+
+footer .middle .copy {
+  border-top: 1px solid #3a4553;
+  padding: 10px 10px 10px 10px;
+}
+
+footer .middle .copy a {
+  padding: 10px 0px 10px 10px;
+  color: #ccc;
+  border: 1px solid #848688;
+  border-radius: 3px;
+}
+
+footer .middle .copy a:hover {
+  text-decoration: none;
+}
+
+footer .bottom {
+  background: #131a22;
+}
+
+footer .bottom ul {
+  padding: 10px 0px 0px 80px;
+}
+
+footer .bottom li {
+  margin-bottom: 10px;
+}
+
+footer .bottom a {
+  color: #ddd;
+  font-size: 11px;
+  line-height: 11px;
+}
+
+footer .bottom a span {
+  color: #999;
+  font-size: 16px;
+}
+footer .bottom a:hover {
+  text-decoration: underline;
+}
+/* My name */
+footer .made-with{
+    font-size: 12px;
+    width: 100%;
+    height: 50px;
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

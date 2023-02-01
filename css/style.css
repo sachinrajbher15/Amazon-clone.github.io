@@ -1,0 +1,475 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.header {
+    background-color: rgb(19, 25, 33);
+    height: 60px;
+    color: white;
+}
+
+/* layout**/
+.container {
+    width: 99%;
+    height: 100%;
+    margin: auto;
+
+}
+
+.container-header {
+    display: flex;
+    align-items: center;
+}
+
+/**logo***/
+.logo-container {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    font-size: 1.1rem;
+}
+
+.logo {
+    width: 120px;
+    height: 50px;
+    background: url('https://m.media-amazon.com/images/G/31/gno/sprites/nav-sprite-global-1x-hm-dsk-reorg._CB405936311_.png');
+    background-repeat: no-repeat;
+    background-position-y: -40px;
+    overflow: hidden;
+}
+
+.dotin {
+    position: relative;
+    margin-left: -13px;
+    margin-top: -10px;
+}
+
+.border-white {
+    padding: 5px;
+    border: 1.5px solid transparent;
+}
+
+.border-white:hover {
+    border: 1.5px solid #ffffff;
+}
+
+/*addresss*/
+.address-container {
+    margin-left: 0px;
+}
+
+.address-container p {
+    margin: 10px;
+}
+
+.icon-address {
+    display: flex;
+    align-items: center;
+}
+
+
+.icon-location {
+    margin-right: 3px;
+}
+
+/***search-container****/
+.search-container {
+    background-color: red;
+    margin-left: 25px;
+    width: 640px;
+    display: flex;
+    height: 40px;
+    justify-content: space-between;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.search-container:hover {
+    outline: 3px solid orange;
+}
+
+.search-select {
+    width: 60px;
+    border: none;
+    background-color: rgb(230, 227, 227);
+}
+
+.search-input {
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    padding: 3px;
+    font-size: 1.1rem;
+}
+
+.search-icon {
+    width: 50px;
+    background-color: rgb(235, 160, 94);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    color: #000;
+}
+::placeholder {
+  font-size:16px;
+  opacity: 5;
+  align-items: center;
+  
+}
+
+/*language section*/
+.language-container {
+    margin-left: 25px;
+	margin-right: 3px;
+}
+
+.language-container p {
+    font-size: 0.8rem;
+    margin: 0;
+	
+}
+
+.lauguge-image {
+    width: 20px;
+}
+
+.lauguge-image img {
+    width: 100%;
+}
+
+
+/*login-container*/
+.login-container {
+    margin-left: 15px;
+}
+
+.login-container p {
+    margin: 0;
+}
+
+.account {
+    font-weight: 900;
+    font-size: 16px;
+}
+
+.return-order-container {
+    width: 65px;
+    font-size: 0.9rem;
+    margin-left: 10px;
+}
+
+.return-order-container p {
+    margin: 0;
+}
+
+.order {
+    font-size: 1rem;
+    font-weight: 900;
+    display: flex;
+    width: 70px;
+}
+
+/*cart container*/
+.cart-container {
+	margin-left: 20px;
+    font-size: 1.1rem;
+    display: flex;
+}
+.cart-container img {
+    font-size: 1rem;
+	margin-top: 12px;
+}
+.cart-container span {
+  color: #f08804;
+  margin-left: -20px;
+  margin-top: 5px;
+  font-size: 16px;
+  font-weight: 700;
+}
+.cart-container p {
+    margin-left: 20px;
+}
+
+/*navigation*/
+.nav {
+    height: 40px;
+    background-color: #232f3d;
+    margin: 0;
+}
+
+.container-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 15px;
+}
+
+.container-nav ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    font-size: 1rem;
+    color: white;
+    list-style: none;
+}
+
+.container-nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 0px 2px;
+
+}
+
+.nav-right-image-amazon-prime {
+    min-width: 300px;
+    height: 300;
+    max-width: 500px;
+}
+
+.nav-right-image-amazon-prime img {
+    width: 100%;
+    height: 100%;
+	margin-top: 4px;
+}
+
+.prime-image {
+    background-color: white;
+    height: 350px;
+    width: 350px;
+    position: absolute;
+    z-index: 1;
+    display: none;
+    color: #000;
+    margin-left: -10px;
+    transition: display 1s;
+    padding: 10px;
+}
+
+.prime-image-hover:hover .prime-image {
+    transition: display 1s;
+    display: block;
+}
+
+.prime-image img {
+    width: 100%;
+    height: 100%;
+	
+}
+
+
+
+/*product card container*/
+.main{
+    position: relative;
+	top: -300px;
+	margin-bottom: -350px;
+
+}
+.productBackgraound{
+    background-color: rgba(213, 247, 247,0.4);
+}
+
+.card-product-container{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.card-product{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 310px;
+    box-shadow: -10px -0px 20px rgba(196, 240, 240,0.5),
+    50px 50px 20px rgba(196, 240, 240,0.5);
+    padding: 10px;
+}
+.card-product h2{
+    margin: 0;
+    padding: 10px;
+    
+}
+
+.card-product-nested-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+
+}
+.card-nested a {
+  font-size: 14px;
+  text-decoration: none;
+}
+.card-nested a:hover {
+  text-decoration: underline;
+}
+.card-nested {
+
+}
+
+.card-nested p{
+    margin: 5px;
+}
+.card-nested img {
+    width: 128px;
+    height: 102px;
+    object-fit: cover;
+
+}
+.buyagain img {
+    width: 100px;
+    height: 140px;
+    object-fit: cover;
+	padding: 5px;
+
+}
+.card-product-btn{
+    font-size: 14px;
+    align-self: flex-start;
+    margin: 7px 10px; 
+    padding-left: 0;
+    background-color: transparent;
+    border:none;
+    color:rgb(25, 105, 105)
+}
+.card-product-btn:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+/* SECTION 1 */
+.section-1 {
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+}
+.section-1 .section-1-container h3 {
+    margin-bottom: 10px;
+	font-size:25px;
+}
+.section-1 .section-1-container .product-cards {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+}
+
+.section-1 .section-1-container .product-card {
+    display: inline-block;
+    width: 300px !important;
+    flex: 0 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-1 .section-1-container .product-card img {
+    width: auto;
+    height: auto;
+    max-width: 270px;
+    max-height: 200px;
+}
+/* SECTION 1 */
+.section-2 {
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+}
+.section-2 .section-2-container h3 {
+    margin-bottom: 10px;
+	font-size:25px;
+}
+.section-2 .section-2-container .product-cards {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+}
+
+.section-2 .section-2-container .product-card {
+    display: inline-block;
+    width: 300px !important;
+    flex: 0 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-2 .section-2-container .product-card img {
+    width: auto;
+    height: auto;
+    max-width: 270px;
+    max-height: 200px;
+}
+
+/* SECTION 3 */
+.section-3 {
+    background-color: white;
+}
+.section-3 .section-3-container {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 20px;
+}
+.section-3 .section-3-container h3 {
+    margin-bottom: 10px;
+	font-size:25px;
+}
+.section-3 .section-3-container .product-detail-cards {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+}
+.section-3 .section-3-container .product-detail-cards .product-detail-card {
+    display: inline-block;
+    width: 200px !important;
+    flex: 0 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 4px;
+}
+.section-3 .section-3-container .product-detail-cards .product-detail-card .product-detail-img {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.section-3 .section-3-container .product-detail-cards .product-detail-card img {
+    width: 100%;
+    height: auto;
+    max-width: 160px;
+    max-height: 140px;
+}
+.section-3 .section-3-container .product-detail-cards .product-detail-card a {
+    text-decoration: none;
+    color: #007185;
+    font-size: 14px; ;
+}
+.section-3 .section-3-container .product-detail-cards .product-detail-card a:hover {
+    color: #c45500;
+}
+.section-3 .section-3-container .product-detail-cards .product-detail-card .product-deliver-by {
+    color: #222;
+    font-size: 12px;
+}
